@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+a{
+    color: rgb(186, 185, 185);
+    font-size: 14px;
+    font-weight: bolder;
+}
+.navbar{
+    width:100vw;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+.navlogo{
+    height: 50px;
+    width:100px;
+    background-image: url("amazon\ logo.jpg");
+    background-size: cover;
+}
+#small{
+    height: 40px;
+    width : 50px;
+    align-self: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#hi{
+    display: flex;
+    flex-direction: row;
+   
+}
+#searchBar
+{
+    height: 35px;
+    width:280px;
+    align-self: center;
+  
+}
+#all{
+    border-color: #e6e6e6;
+}
+#searchButton{
+    height: 42px;
+    width : 50px;
+    align-self: center;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    background-color: #f3a847;
+}
+.select{
+    height:50px;
+    width:65px;
+    background-color: black;
+    border-color:black;
+}
+#languageSelector{
+    height: 50px;
+    width: 65px;
+    background-color: black;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.languageSelector:hover{
+    border-color: #e6e6e6;
+}
+#indianFlag{
+    height: 13px;
+    width:18px;
+ 
+}
+#signIn{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-color: black;
+    justify-content: center;
+    text-decoration: none;
+}
+#return{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-color: black;
+    justify-content: center;
+    text-decoration: none;
+}
+#cart{
+    height:50px;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-decoration: none;
+}
+.link{
+border-radius: 2px;
+}
+.link:hover{
+   
+    border-color: white;
+}
+#navbar2{
+    width:100vw;
+    height:39px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.n2{
+    background-color: #232f3e;
+    color:white;
+    height:39px;
+    font-size: 13px;
+text-decoration: none;
+margin-left: 5px;
+margin-right: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-weight: 700;
+border-width: 2px;
+}
+.n2:hover{
+border-color: #e6e6e6;
+}
+#navbar3{
+    width:100vw;
+    background-color: #dfdfdf;
+    height:33px;
+    display:flex;
+    flex-direction: row;
+  
+
+}
+.n3{
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size:11px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: center;
+}
+#content{
+    height:1800px;
+    width: 100vw;
+    position: absolute;
+    background-image: url("backgroung=d.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+}
+#inner{
+    width:100vw;
+    position: absolute;
+    top:200px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.content
+{
+    height:420px;
+    width:306px;
+    display: flex;
+    background-color: white;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    justify-content: space-evenly;
+
+}
+img{
+    height: 120px;
+    width: 140px;
+    margin: 3px;
+}
+h2{
+    width: 306px;
+    height:50px;
+    padding-top: 12px;
+    padding-left: 12px;
+
+}
+a{
+    width: 306px;
+    text-decoration: none;
+    font-size:13px;
+}
+body{
+    background-color: #bcbcbc;
+}
+#slide{
+    width:100vw;
+    height:285px ;
+    margin: 0;
+}
+#h2s{
+    width: 650px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#as{
+    height:50px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.is{
+width:165px;
+height:200px;
+;
+}
+#sin{
+    width: 100vw;
+    height: 170px;
+    background-color: white;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 1;
+}
+#sIn{
+    width:230px;
+    height:28px;
+    border-radius: 5px;
+    background-color:#ffe093;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    align-items: center;
+   
+}
+footer{
+    width:100vw;
+
+
+
+}
+#f1{
+    width:100vw;
+    height: 49px;
+    background-color: #2c445f;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  color: white;
+  font-size: 14px;
+}
+#f2{
+width: 100vw;
+height: 350px;
+background-color: #232f3e;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+#f2ul{
+   
+    width: 130px;
+}
+h3{
+    color: white;
+}
+span{
+    position: relative;
+    top:40px;
+}
+li{
+    list-style-type:none ;
+   
+}
+#f3{
+    width:100vw;
+    height: 140px;
+    background-color: #232f3e;
+    border-top: 0.2px solid rgb(142, 142, 142);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.f3{
+    width:50vw;
+    height : 40px;
+}
+#f3a{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#lai{
+    height: 25px;
+    width:65px;
+   position: relative;
+   right: 70px;
+}
+#f3b{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#f3b1{
+    height:34px;
+    width:116px;
+    border:1px solid #a7a7a8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+}
+#f3b2{
+    height:34px;
+    width:90px;
+    border:1px solid #a7a7a8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#f4{
+    width:100vw;
+    height:80px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#f41{
+height: 25px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#LS
+{
+    position: relative;
+top: 0px;
+}
